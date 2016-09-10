@@ -1,0 +1,32 @@
+{
+  "name": "typescript-lambda",
+  "version": "1.0.0",
+  "description": "AWS Lambda function written in Typescript",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "typings install",
+    "build": "rimraf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typings": "typings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaiza/aws-lambda-typescript-seed"
+  },
+  "keywords": [
+    "typescript",
+    "lambda",
+    "aws"
+  ],
+  "author": "Kai Gorman",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.5.6"
+  },
+  "devDependencies": {
+    "rimraf": "^2.5.4",
+    "tsc": "^1.20150623.0",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.3"
+  }
+}

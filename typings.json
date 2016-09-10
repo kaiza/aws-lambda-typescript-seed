@@ -1,0 +1,5 @@
+{
+  "globalDependencies": {
+    "aws-lambda": "registry:dt/aws-lambda#0.0.0+20160906141158"
+  }
+}
